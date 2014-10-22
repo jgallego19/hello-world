@@ -6,7 +6,18 @@
 </head>
 
 <body>
-Content of the document......
-</body>
+ <div class="app">
+      <h1>Primera Aplicación con PhoneGap</h1>
+      <div id="deviceready" class="blink">
+          <p class="event listening">Connectando con el dispositivo</p>
+          <p class="event received">El dispositivo está listo</p>
+      </div>
+  </div>
 
+  <script type="text/javascript" src="cordova.js"></script>
+  <script type="text/javascript">
+    app.initialize();
+  </script>
+        
+</body>
 </html>
